@@ -1,10 +1,21 @@
-# {{cookiecutter.project_name}}
+# Calidad de Higiene
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-{{cookiecutter.description}}
+#Descripcion y origenes:
+
+Este proyecto tiene como objetivo desarrollar un modelo de predicción basado en cuatro archivos CSV para estimar la calidad de higiene de la leche cruda en Argentina. Los conjuntos de datos fueron obtenidos de la página "datos.gob.ar". Dos fuentes principales de datos son "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel provincial" y "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel nacional", adquiridos el 2/6/2024. La razón de tener dos conjuntos de datos por cada nivel es debido al registro de las células, donde hay un registro en cada CSV.
+
+#Los conjuntos de datos se componen de la siguiente manera:
+
+El conjunto a nivel provincial tiene 9 columnas: "indice tiempo" (string), "pais id" (int), "pais" (string), "producto id" (int), "producto" (string), "unidad de medida" (string), "cantidad" (int), "provincia id" (int), "provincia" (string), con un total de 766 instancias.
+El conjunto a nivel nacional tiene 7 columnas, las mismas que el conjunto provincial pero sin las columnas "provincia id" ni "provincia", y cuenta con un total de 150 instancias.
+
+#Columnas relevantes:
+
+Las columnas más relevantes para este proyecto son "indice tiempo", "cantidad" y "provincia". 
 
 ## Project Organization
 
