@@ -28,7 +28,7 @@ Argentina tiene desde el 2018 los limites maximos en 400.000 ccs/ml y 100.000 uf
 
 # Interpretacion de como fue evolucionando la calidad de la leche cruda con el pasar del tiempo
 
-![Evolución de UFC Promedio Provincial](C:\Users\matyd\OneDrive\Escritorio\Calidad-de-higiene-de-la-leche-en-Argentina\references\ufc_promedio_provincial_evolucion.png)
+![Evolución de UFC Promedio Provincial](references\ufc_promedio_provincial_evolucion.png)
 
 
 
