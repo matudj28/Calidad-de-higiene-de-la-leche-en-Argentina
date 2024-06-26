@@ -28,9 +28,17 @@ Argentina tiene desde el 2018 los limites maximos en 400.000 ccs/ml y 100.000 uf
 
 # Interpretacion de como fue evolucionando la calidad de la leche cruda con el pasar del tiempo
 
+Aca se puede observar una grafica de la variable UFC. A primera vista se puede observar que hay picos demasiado altos correspondientes de las provincias de Santa Fe, Santiago del Estero y Entre Rios. 
+Alcanzando un maximo de 444 en el año 2016. La media de ufc antes de la primera mitad del 2017 fue del 129.60 ufc/ml. Luego de la primera mitad el promedio bajo al 83.90 ufc/ml.
 ![Evolución de UFC Promedio Provincial](references/ufc_promedio_provincial_evolucion.png)
 
 
+En el caso de CCS se puede observar lo mismo que con el UFC, se puede observar una mejora pero esta vez mas leve, despues de la segunda mitad del año 2017 los valores mantuvieron una media de 420.37 .
+Las provincias que tuvieron picos mas altos desde que se tiene registro fueron las provincias de Santa Fe, Entre Rios y Cordoba. 
+![Evolución de CCS Promedio Provincial](references/ccs_promedio_provincial_evolucion.png)
+
+A pesar de que todas las provincias suelen estar muy por encima del limite estipulado, las que suelen tener los niveles mas bajos son Buenos Aires y La Pampa. Mientras que Santa Fe, Entre Rios, Santiago
+del Estero y Cordoba suelen ser las mas altas, principalmente las primeras 2 mencionadas. 
 
 ## Project Organization
 
