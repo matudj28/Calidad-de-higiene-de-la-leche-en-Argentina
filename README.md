@@ -4,6 +4,40 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+## Presentación:
+
+La leche es un producto importante para una sociedad, segun la organizacion OCLA, se consumen 118 litros por persona al año. Ademas la leche tiene productos derivados como la manteca, yogurt, queso, crema de leche, helado, dulce de leche y un monton de productos mas. Entonces saber en que niveles de calidad de higiene se encuentra este producto en Argentina seria un tema interesante de saber. Acompañame a conocer como fue evolucionando la calidad de higiene de la leche en Argentina desde el 2014 hasta el 2019.
+
+## Objetivos:
+
+Este proyecto tiene como objetivo el implear un modelo predictivo basado en 2 variables importantes que se usa para evaluar la calidad de higiene de la leche cruda. Los objetivos que me impuse para poder realizar este proyecto son:
+
+-¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda?
+
+-¿Hay alguna diferencia notable entre las distintas provincias? 
+
+-¿Cómo fue evolucionando la calidad de higiene? ¿Fue un aumento de calidad o disminuyo?
+
+-¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning?
+
+-¿Qué tendencias futuras se pueden anticipar tanto a nivel nacional como provincial?
+
+## Origenes de los datos:
+
+Los datos fueron extraidos de la pagina "datos.gob.ar", alli fueron descargados cuatro archivos CSV, dos de ellos registran a nivel nacional y los otros dos a nivel provincial. Cada par de archivos registra una variable de medicion, uno registra las unidades formadoras de colonias (UFC) y la otra las cantidad de celulas somaticas (CCS). 
+El conjunto a nivel provincial tiene 9 columnas: "indice tiempo" (string), "pais id" (int), "pais" (string), "producto id" (int), "producto" (string), "unidad de medida" (string), "cantidad" (int), "provincia id" (int), "provincia" (string), con un total de 766 instancias. Mientras que el conjunto a nivel nacional tiene 7 columnas, las mismas que el conjunto provincial pero sin las columnas "provincia id" ni "provincia", y cuenta con un total de 150 instancias.
+Las columnas más relevantes para este proyecto son "indice tiempo", "cantidad" y "provincia". La columna "cantidad" fue renombrada por "ccs_promedio_provincial" y "ufc_promedio_provincial" respectivamente. la columna CCS esta midiendo por miles de celulas, mientras que UFC esta midiendo por miles de unidades.
+
+Para tener una referencia de que tan alto pueden ser los niveles estudiados en los datasets, vamos a tomar de referencia los estandares mundiales que tambien fueron aplicados en un documento publicado por el gobierno en el 2018, este archivo se puede encontrar en la carpeta de "reference" llamado "anmat-capitulo_viii_lacteosactualiz_2018-11". Estos estandares mundiales indican que un nivel de ccs inferior 200.000 se considera que es de buena calidad. Entre 200.000 y 400.000 se lo considera aceptable y por encima de los 400.000 se lo toma como problemas potenciales. En el caso de ufc, una leche de buena calidad tiene menos de 50.000 ufc/ml, una de calidad aceptable oscila entre los 50.000 y los 100.000 ufc/ml y si tiene mas de 100.000 se considera como un problema potencial.
+Argentina tiene desde el 2018 los limites maximos en 400.000 ccs/ml y 100.000 ufc/ml.
+
+## work in progress
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Descripcion y origenes:
 
 Este proyecto tiene como objetivo desarrollar un modelo de predicción basado en cuatro archivos CSV para estimar la calidad de higiene de la leche cruda en Argentina. Los conjuntos de datos fueron obtenidos de la página "datos.gob.ar". Dos fuentes principales de datos son "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel provincial" y "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel nacional", adquiridos el 2/6/2024. La razón de tener dos conjuntos de datos por cada nivel es debido al registro de las células, donde hay un registro en cada CSV.
