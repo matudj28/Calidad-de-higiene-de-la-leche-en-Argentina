@@ -31,7 +31,16 @@ Las columnas más relevantes para este proyecto son "indice tiempo", "cantidad" 
 Para tener una referencia de que tan alto pueden ser los niveles estudiados en los datasets, vamos a tomar de referencia los estandares mundiales que tambien fueron aplicados en un documento publicado por el gobierno en el 2018, este archivo se puede encontrar en la carpeta de "reference" llamado "anmat-capitulo_viii_lacteosactualiz_2018-11". Estos estandares mundiales indican que un nivel de ccs inferior 200.000 se considera que es de buena calidad. Entre 200.000 y 400.000 se lo considera aceptable y por encima de los 400.000 se lo toma como problemas potenciales. En el caso de ufc, una leche de buena calidad tiene menos de 50.000 ufc/ml, una de calidad aceptable oscila entre los 50.000 y los 100.000 ufc/ml y si tiene mas de 100.000 se considera como un problema potencial.
 Argentina tiene desde el 2018 los limites maximos en 400.000 ccs/ml y 100.000 ufc/ml.
 
-## work in progress
+## Explicacion del Trabajo:
+
+La siguiente imagen representa una grafica de la variable UFC. A primera vista se puede observar que hay picos demasiado altos correspondientes de las provincias de Santa Fe, Santiago del Estero y Entre Rios. Alcanzando un maximo de 444 en el año 2016. La media de ufc antes de la primera mitad del 2017 fue del 129.60 ufc/ml. Luego de la primera mitad el promedio bajo al 83.90 ufc/ml.
+![Evolución de UFC Promedio Provincial](references/ufc_promedio_provincial_evolucion.png)
+
+Este siguiente grafico representa la variable CCS, se puede observar una mejora pero esta vez mas leve, despues de la segunda mitad del año 2017 los valores mantuvieron una media de 420.37. Las provincias que tuvieron picos mas altos desde que se tiene registro fueron las provincias de Santa Fe, Entre Rios y Cordoba. 
+![Evolución de CCS Promedio Provincial](references/ccs_promedio_provincial_evolucion.png)
+
+A pesar de que todas las provincias suelen estar muy por encima del limite estipulado, las que suelen tener los niveles mas bajos son Buenos Aires y La Pampa. Mientras que Santa Fe, Entre Rios, Santiago
+del Estero y Cordoba suelen ser las mas altas, principalmente las primeras 2 mencionadas. 
 
 
 
