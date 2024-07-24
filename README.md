@@ -62,6 +62,7 @@ del Estero y Cordoba suelen ser las mas altas, principalmente las primeras 2 men
 ### Modelos y resultados
 Para este proyecto utilice dos modelos, un modelo de regresion lineal y un modelo de Gradient Boosting Regressor. Con el modelo de regresion lineal tuve malos resultados, llegando cerca del 41% y con un error cuadratico de 3290. Mientras que el modelo de Gradient Boosting Regressor llego a tener un porcentaje de prediccion del 86.96% y con un error cuadratico de 626.72. 
 ![Resultados del modelo Gradient Boosting Regressor](references/Resultados_Modelo_86.96%.png)
+
 En esta imagen se puede observar las diferencias que tuvo el modelo cuanto estaba en entrenamiento a cuando paso a fase de pruebas. 
 
 ## Conclusion
@@ -85,7 +86,7 @@ Esta es una respuesta parcial, solo se puede predecir los niveles de CCS para lo
 Las tendencias futuras que pudo predecir este modelo son 6 meses en adelante (aunque puede ser ajustado) desde el ultimo dato registrado en el data set.
 
 La siguiente imagen representa la prediccion de los niveles de CCS para los proximos 6 meses, desde el mes 6 del año 2019
-![Prediccion del Modelo](references/CCS_pronostico.png)
+![Prediccion del Modelo](main/references/CCS%20pronostico.png)
 
 =======
 
