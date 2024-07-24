@@ -12,6 +12,7 @@ La leche es un producto importante para una sociedad, segun la organizacion OCLA
 
 Este proyecto tiene como objetivo el implear un modelo predictivo basado en 2 variables importantes que se usa para evaluar la calidad de higiene de la leche cruda. Los objetivos que me impuse para poder realizar este proyecto son:
 
+<<<<<<< HEAD
 -¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda? no
 
 -¿Hay alguna diferencia notable entre las distintas provincias? si
@@ -21,6 +22,17 @@ Este proyecto tiene como objetivo el implear un modelo predictivo basado en 2 va
 -¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning? si
 
 -¿Qué tendencias futuras se pueden anticipar? si
+=======
+-¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda?
+
+-¿Hay alguna diferencia notable entre las distintas provincias? 
+
+-¿Cómo fue evolucionando la calidad de higiene? ¿Fue un aumento de calidad o disminuyo?
+
+-¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning?
+
+-¿Qué tendencias futuras se pueden anticipar tanto a nivel nacional como provincial?
+>>>>>>> 26c45eabb9a8c8027d17000bdd334a52c5fa8ec7
 
 ## Origenes de los datos:
 
@@ -33,7 +45,10 @@ Argentina tiene desde el 2018 los limites maximos en 400.000 ccs/ml y 100.000 uf
 
 ## Explicacion del Trabajo:
 
+<<<<<<< HEAD
 ### Graficas
+=======
+>>>>>>> 26c45eabb9a8c8027d17000bdd334a52c5fa8ec7
 La siguiente imagen representa una grafica de la variable UFC. A primera vista se puede observar que hay picos demasiado altos correspondientes de las provincias de Santa Fe, Santiago del Estero y Entre Rios. Alcanzando un maximo de 444 en el año 2016. La media de ufc antes de la primera mitad del 2017 fue del 129.60 ufc/ml. Luego de la primera mitad el promedio bajo al 83.90 ufc/ml.
 ![Evolución de UFC Promedio Provincial](references/ufc_promedio_provincial_evolucion.png)
 
@@ -43,6 +58,7 @@ Este siguiente grafico representa la variable CCS, se puede observar una mejora 
 A pesar de que todas las provincias suelen estar muy por encima del limite estipulado, las que suelen tener los niveles mas bajos son Buenos Aires y La Pampa. Mientras que Santa Fe, Entre Rios, Santiago
 del Estero y Cordoba suelen ser las mas altas, principalmente las primeras 2 mencionadas. 
 
+<<<<<<< HEAD
 ### Modelos y resultados
 Para este proyecto utilice dos modelos, un modelo de regresion lineal y un modelo de Gradient Boosting Regressor. Con el modelo de regresion lineal tuve malos resultados, llegando cerca del 41% y con un error cuadratico de 3290. Mientras que el modelo de Gradient Boosting Regressor llego a tener un porcentaje de prediccion del 86.96% y con un error cuadratico de 626.72. 
 ![Resultados del modelo Gradient Boosting Regressor](references/Resultados_Modelo_86.96%.png)
@@ -71,6 +87,12 @@ Las tendencias futuras que pudo predecir este modelo son 6 meses en adelante (au
 La siguiente imagen representa la prediccion de los niveles de CCS para los proximos 6 meses, desde el mes 6 del año 2019
 ![Prediccion del Modelo](references/CCS_pronostico.png)
 
+=======
+
+
+
+ 
+>>>>>>> 26c45eabb9a8c8027d17000bdd334a52c5fa8ec7
 
 ### Project Organization
 
