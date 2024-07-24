@@ -45,7 +45,7 @@ del Estero y Cordoba suelen ser las mas altas, principalmente las primeras 2 men
 
 ### Modelos y resultados
 Para este proyecto utilice dos modelos, un modelo de regresion lineal y un modelo de Gradient Boosting Regressor. Con el modelo de regresion lineal tuve malos resultados, llegando cerca del 41% y con un error cuadratico de 3290. Mientras que el modelo de Gradient Boosting Regressor llego a tener un porcentaje de prediccion del 86.96% y con un error cuadratico de 626.72. 
-![Resultados del modelo Gradient Boosting Regressor](references/Resultados_Modelo_86.96%.png)
+![Resultados del modelo Gradient Boosting Regressor](references/Resultados_Modelo.png.png)
 En esta imagen se puede observar las diferencias que tuvo el modelo cuanto estaba en entrenamiento a cuando paso a fase de pruebas. 
 
 ## Conclusion
