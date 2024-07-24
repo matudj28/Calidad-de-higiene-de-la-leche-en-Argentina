@@ -12,15 +12,15 @@ La leche es un producto importante para una sociedad, segun la organizacion OCLA
 
 Este proyecto tiene como objetivo el implear un modelo predictivo basado en 2 variables importantes que se usa para evaluar la calidad de higiene de la leche cruda. Los objetivos que me impuse para poder realizar este proyecto son:
 
--¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda? no
+-¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda?
 
--¿Hay alguna diferencia notable entre las distintas provincias? si
+-¿Hay alguna diferencia notable entre las distintas provincias?
 
--¿Cómo fue evolucionando la calidad de higiene? ¿Fue un aumento de calidad o disminuyo? mejoro hasta el 2019 pero 
+-¿Cómo fue evolucionando la calidad de higiene? ¿Fue un aumento de calidad o disminuyo? 
 
--¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning? si
+-¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning?
 
--¿Qué tendencias futuras se pueden anticipar? si
+-¿Qué tendencias futuras se pueden anticipar?
 
 ## Origenes de los datos:
 
