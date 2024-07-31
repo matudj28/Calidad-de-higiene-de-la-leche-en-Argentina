@@ -54,7 +54,7 @@ Para finalizar este proyecto, puedo afirmar que este modelo puede predecir con e
 
 ### Respuestas de las preguntas
 -¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda?
-Por lo que pudimos observar, no existen cambios estacionales, aunque se suelen encontrar los niveles mas altos al inicio de cada año.
+Por lo que pudimos observar, no existen cambios estacionales.
 
 -¿Hay alguna diferencia notable entre las distintas provincias?
 Si hay diferencias notables entre cada provincia. Por ejemplo Santa Fe, Santiago del Estero y Entre Rios tienen una gran diferencia si los comparamos con Buenos Aires o La Pampa.
