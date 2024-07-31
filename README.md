@@ -54,7 +54,7 @@ Para finalizar este proyecto, puedo afirmar que este modelo puede predecir con e
 
 ### Respuestas de las preguntas
 -¿Existen patrones estacionales que afecten a la calidad higiénica de la leche cruda?
-Por lo que pudimos observar, no existen cambios estacionales, aunque se suelen encontrar los niveles mas altos al inicio de cada año.
+Por lo que pudimos observar, no existen cambios estacionales.
 
 -¿Hay alguna diferencia notable entre las distintas provincias?
 Si hay diferencias notables entre cada provincia. Por ejemplo Santa Fe, Santiago del Estero y Entre Rios tienen una gran diferencia si los comparamos con Buenos Aires o La Pampa.
@@ -65,10 +65,9 @@ Alcanzo picos en el año 2016, bajo a finales del mismo año para volver a repun
 -¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning?
 Esta es una respuesta parcial, solo se puede predecir los niveles de CCS para los proximos meses.
 
--¿Qué tendencias futuras se pueden anticipar? si
-Las tendencias futuras que pudo predecir este modelo son 6 meses en adelante (aunque puede ser ajustado) desde el ultimo dato registrado en el data set.
+-¿Qué tendencias futuras se pueden anticipar?
 
-La siguiente imagen representa la prediccion de los niveles de CCS para los proximos 6 meses, desde el mes 6 del año 2019
+La siguiente imagen representa la prediccion de los niveles de CCS para los proximos meses
 ![Prediccion del Modelo](references/CCS_pronostico.png)
 
 
