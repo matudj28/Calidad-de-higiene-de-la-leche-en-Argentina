@@ -65,7 +65,7 @@ Alcanzo picos en el año 2016, bajo a finales del mismo año para volver a repun
 -¿Es posible predecir los niveles de UFC y CCS en la leche cruda para los próximos meses o años utilizando un modelo de Machine Learning?
 Esta es una respuesta parcial, solo se puede predecir los niveles de CCS para los proximos meses.
 
--¿Qué tendencias futuras se pueden anticipar? si
+-¿Qué tendencias futuras se pueden anticipar?
 Las tendencias futuras que pudo predecir este modelo son 6 meses en adelante (aunque puede ser ajustado) desde el ultimo dato registrado en el data set.
 
 La siguiente imagen representa la prediccion de los niveles de CCS para los proximos 6 meses, desde el mes 6 del año 2019
